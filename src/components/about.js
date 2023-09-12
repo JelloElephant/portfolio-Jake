@@ -1,11 +1,13 @@
 import React from 'react'
+import '../app.css'
+import './about.css'
 
 function About() {
     return (
-        <div className='flex-items-center'>
-            <div className='font-size: large'> 
+        <div>
+            <div className="About"> 
                 <h1>About Me</h1>
-                <p>Im an avid model enthuesiast and I can make fullsatck apps!</p>
+                <p>I'm an avid hobby miniature enthuesiast and I'm fullstack developer! I have been on my coding journey since 2019..</p>
             </div>
         </div>
     )
