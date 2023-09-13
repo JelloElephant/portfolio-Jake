@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../src/app.css';
+import './app.css';
 import Header from './components/header';
 import Footer from './components/footer';
 
@@ -7,10 +7,12 @@ import About from './components/about';
 import Portfolio from './components/portfolio';
 import Resume from './components/resume';
 import Contact from './components/contact';
+import Home from './components/home'
+import img from './images/manager.png'
 
 
 function App() {
-  const [page, setPage] = useState('about')
+  const [page, setPage] = useState('')
 
   const handlePage = (name) => {
     setPage(name)
@@ -28,16 +30,19 @@ function App() {
       case 'contact':
         return <Contact />;
       default:
-        return <About />
+        return <Home />
     }
   }
 
   return (
-    <div className='font-rem flex flex-col min-h-screen'>
-      <div className="header-app">
-        <Header handlePage={handlePage} page={page}/>
+    <div className='flex flex-col'>
+      <div>
+        <Header handlePage={handlePage} page={page} />
       </div>
-      <div className="content flex-grow bg-black text-white">{renderPage()}</div>
+      {page !== '' ? (
+        <div className="pageRender">{renderPage()}</div>
+      ) : null}
+      <img src={img} alt='sleepyLucy' className='imgBanner' />
       <div className="footer-app">
         <Footer />
       </div>
