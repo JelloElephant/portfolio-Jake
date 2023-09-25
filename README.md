@@ -1,7 +1,7 @@
 # Jake portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-A basic portfolio using React
+A basic portfolio using React check it out [here](https://jelloelephant.github.io/portfolio-Jake/)
 
 
 ## Installation
