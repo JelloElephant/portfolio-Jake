@@ -17,22 +17,9 @@
     padding: 40px;
     border-radius: 25px;
     content: none;
-    background: linear-gradient(90deg, #8332AC, #136F63, #3F88C5);
-    background-size: 400% 400%;
-    animation: devblog 2.5s infinite ease-in-out;
+    background: #720000;
     flex-grow: 1;
     opacity: .7;
     text-decoration-color: #000;
 }
 
-@keyframes devblog {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}

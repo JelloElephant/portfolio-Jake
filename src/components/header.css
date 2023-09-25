@@ -1,11 +1,12 @@
 .headerStyle {
+    color: rgb(209, 209, 209);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8332AC;
+    background-color: #720000;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-
 
 .headerStyle h1 {
     font-size: xx-large;

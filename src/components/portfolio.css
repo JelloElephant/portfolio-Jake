@@ -1,9 +1,27 @@
 .Demo {
-    padding-left: 90px;
+    color: rgb(209, 209, 209);
     display: grid;
     grid: 300px / auto auto auto;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 4px;
+}
+
+.Card:hover {
+    background: linear-gradient(90deg, #C200FB, #33658A);
+    background-size: 400% 400%;
+    animation: devblog 2.5s infinite ease-in-out;
+}
+
+@keyframes devblog {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .Card h3 {

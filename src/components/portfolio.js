@@ -17,7 +17,7 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Daily-Planner',
+        title: 'Daily Weather Planner',
         link: 'https://jelloelephant.github.io/Daily-Weather-Planner/',
         gitHubLink: 'https://github.com/JelloElephant/Daily-Weather-Planner',
     }
